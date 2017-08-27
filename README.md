@@ -1,2 +1,2 @@
 # CSC220-SFSU-Fall-2017
-This Repository mainly contains the Sample code for the algorithms and Abstract Data Types in JAVA
+This Repository mainly contains In class code Samples for the algorithms, dataStructures and Abstract Data Types in JAVA

@@ -1,17 +1,22 @@
 public class dog extends animal{
 
-	public dog(){
+	public dog(int age){
 		super(2);
+		System.out.println("in Dog constructor");
 	}
 
-	public void run(){
-		System.out.println("Dog is running");
+	public void bark(){
+		System.out.println("wfffff");
 	}
 
-	public static void main(String[] args){
-		dog d = new dog();
-		d.run();
-		System.out.println("age of dog :"+d.age);
-	}
+	// public void run(){
+	// 	System.out.println("Dog is running");
+	// }
+
+	// public static void main(String[] args){
+	// 	dog d = new dog();
+	// 	d.run();
+	// 	System.out.println("age of dog :"+d.age);
+	// }
 }
 		

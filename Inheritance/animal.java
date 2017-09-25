@@ -6,6 +6,7 @@ public class animal{
 	public animal(int age){
 		this.age = age;
 		weight = 10.5;
+		System.out.println("in animal constructor");
 	}
 
 	public  void run(){

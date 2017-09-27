@@ -3,10 +3,10 @@ public class animal{
 	public int age;
 	public double weight;
 
-	public animal(int age){
+	public animal(){
 		this.age = age;
 		weight = 10.5;
-		System.out.println("in animal constructor");
+		//System.out.println("in animal constructor");
 	}
 
 	public  void run(){

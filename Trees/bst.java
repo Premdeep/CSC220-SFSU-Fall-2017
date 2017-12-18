@@ -110,12 +110,26 @@ class bst{
 						parent.right = null;
 				}
 				else if(root.left == null){
+					Node parent = getParentNode(root);
+					if(parent.left.data == root.data){
+						parent.left = root.right;
+					}
+					if(parent.right.data == root.data)
+						parent.right = root.right;
 
 				}
 				else if(root.right == null){
+					Node parent = getParentNode(root);
+					if(parent.left.data == root.data)
+						parent.left = root.left;
+					if(parent.right.data == root.data)
+						parent.right = root.left;
 
 				}else{
 
+					Node maxNode = getMaxNode(root.left);
+					root.data = maxNode.data;
+					deleteNode(root.left, maxNode.data);
 					
 				}
 
